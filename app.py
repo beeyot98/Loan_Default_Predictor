@@ -8,7 +8,7 @@ app_mode = st.sidebar.selectbox('Select Page',['Home','Predict_Default'])
 if app_mode == "Home":
     st.title("Loan Default Prediction")
     st.markdown('Dataset :')
-    df=pd.read_csv('archive/test.csv')
+    df=pd.read_csv('test.csv')
     st.write(df.head())
 elif app_mode== "Predict_Default":
     st.subheader("Fill in loan details")
