@@ -80,4 +80,4 @@ if st.button("Predict"):
     elif prediction[0] == 1:
         st.error( 'Customer will default')
         
-
+streamlit run app.py
