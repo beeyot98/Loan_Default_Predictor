@@ -2,7 +2,7 @@
 numpy==1.23.3
 
 pandas 
-pickle
+
 
 
 scikit-learn==1.1.2
